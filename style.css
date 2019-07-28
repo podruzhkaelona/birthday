@@ -208,7 +208,7 @@ input[type=text] {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	background-color: rgb(255, 255, 255, 0.9);
+	background-image: url("img/back.png");
 	z-index: 50;
 }
 
@@ -226,7 +226,7 @@ input[type=text] {
     -webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	background-color: rgb(255, 255, 255, 0.9);
+	background-image: url("img/back.png");
 	z-index: 50;
 }
 
