@@ -199,17 +199,6 @@ input[type=text] {
 }
 
 .start-container {
-	text-align: center;
-	min-height: 500px;
-	position: absolute; /* Stay in place */
-    z-index: 99999; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-	left: 25%;
-	width: 50%;
-	top: 10%;
-	background-color:rgb(255, 255, 255, 0.9);
-	
-	/*
 	min-height: 500px;
 	left: 25%;
 	width: 50%;
@@ -221,7 +210,6 @@ input[type=text] {
 	transform: translateY(-50%);
 	background-color: rgb(255, 255, 255, 0.9);
 	z-index: 50;
-	*/
 }
 
 .padded {
