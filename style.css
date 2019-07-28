@@ -207,7 +207,7 @@ input[type=text] {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	background-color: rgb(255, 255, 255, 0.9);
+	background-color: rgb(0, 255, 255, 0.9);
 	z-index: 50;
 }
 
