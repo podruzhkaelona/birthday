@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+
+	<div class="background">
+		<div id="parent_popup_click1" class="modal" onclick="document.getElementById('parent_popup_click1').style.display='none';">
+			<div class="modal-content">
+				<a class="closess" title="Закрыть" onclick="document.getElementById('parent_popup_click1').style.display='none';">×</a>  
+				<div class="hint">
+					<p id="popup_content"></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="start-container">
+			<div class="centered">
+				<span class="rainbow">
+					<h3 class="text">Подружка!</h3>
+					<span class="text padded">В этом безумном мире, где Саша Долгополов не может выбрать между женой и девушкой, а Русалочка стала цвета горькой "Коммунарки", главное не забывать, кто ты есть!</text>
+				</span>
+				<div>
+					<button class="start-button" id="begin">
+						<div style="display: flex; justify-content: center; align-items: center;"> 
+							<div style="padding-top: 5px; "><img src="img\start.png" style="height: 18px"></img></div>
+							<div>Поехали</div>
+						</div>
+					</button>	
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+  </body>
+</html>
