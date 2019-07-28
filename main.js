@@ -24,9 +24,12 @@ var congrats = `
 <div class="background">
     <div id="congrats" class="start-container">
         <div class="centered">
-            <span class="rainbow">
-                <span class="text">С днем рождения!</text>
-            </span>
+            <div class="rainbow">
+                <span class="text">С днем рождения!</span>
+            </div>
+            <div>
+                <img src="img\\final.jpg" style="max-height: 300px"></img>
+            </div>
         </div>	
     </div>
 </div>
